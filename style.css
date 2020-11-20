@@ -1,0 +1,324 @@
+*{
+  margin: 0; 
+}
+
+.wrapper { 
+  padding-left: 20px;
+  padding-top: 20px; 
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body { 
+  background-color: white;
+}
+
+
+
+
+
+
+/* NAV SELECTORS */
+
+.nav { 
+  min-height: 120px; 
+  background-color: white; 
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  
+ 
+ 
+}
+
+button { 
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px; 
+  min-width: 100px;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px 2px black;
+  font-size: 40px;
+  cursor: pointer;
+  outline: 0;
+  transition: 0.2s;
+  width: 22%;
+  border: none;
+}
+
+button:hover{
+  background-color: white;
+  outline: 0;
+  color: black;
+  font-weight: bold; 
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+/* LOGIN PAGE */
+
+#loginInstructions {
+  width: 711px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inputUser, #inputPass {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #4A87CB;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  width: 700px; 
+  margin-right: auto; 
+  margin-left: auto;
+  display: block;
+
+}
+
+#inputUser:focus, #inputPass:focus {
+ border: 2px solid #FF6B6B; 
+}
+
+.loginButton { 
+  margin-top: 30px; 
+  background-color: black; 
+  border-radius: 5px; 
+  height: 50px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;; 
+  letter-spacing: 1px;
+  transition: 0.2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.loginButton:hover { 
+  background-color: #FFE66D; 
+  box-shadow: 1px 1px 1px black; 
+  color: black;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+/* HOME PAGE */
+
+.fix { margin-top: 30px; }
+
+h2 { 
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px; 
+  min-width: 250px;
+  background-color: black;
+  color: white;
+  border: 1px solid black; 
+  border-radius: 190px; 
+  font-size: 24px;
+  outline: 0;
+  margin: 10px; 
+  font-family: "Lucida Console", Monaco, monospace;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 25px
+}
+
+h2:hover { 
+  background-color: #FFE66D; 
+  box-shadow: 1px 1px 5px black; 
+  color: black;
+  letter-spacing: 3px;
+}
+
+
+#homeInstructions {
+  width: 650px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  margin-bottom: -15px;
+}
+
+h4 {
+  padding-bottom: 10px; 
+  padding-top: 20px; 
+  font-size: 140%;
+}
+
+
+
+
+
+
+
+
+
+/* ADD GRADE PAGE */
+
+#nameInput, #gradeInput{ 
+  width: 300px;
+  height: 35px;
+  padding: 7px 7px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #CCDDDC;
+  resize: none; 
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  margin-top: 20px; 
+  font-size: 120%; 
+  outline: 0;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: 0.2s;
+}
+
+#nameInput:focus, #gradeInput:focus {
+ border: 2px solid #FF6B6B; 
+}
+
+
+.submitButton, #submitButton { 
+  margin-top: 30px; 
+  background-color: black; 
+  border-radius: 5px;  
+  height: 50px;
+  font-weight: bold;
+  font-size: 33px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;; 
+  letter-spacing: 1px;
+  transition: 0.2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.submitButton:hover { 
+  background-color: #FFE66D; 
+  box-shadow: 1px 1px 1px black; 
+  color: black;
+  letter-spacing: 3px;
+}
+
+#gradeInputInstructions { 
+  margin-top: 15px; 
+  margin-bottom: -8px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 100%; 
+  font-weight: bold; 
+  font-style: italic;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+}
+
+.goToGrades {
+  padding: 0;
+  font-size: 150%;
+  border: none;
+  box-shadow: 1px 1px 2px black;
+  margin-top: 10px; 
+  border-radius: 5px;  
+  height: 36px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;; 
+  letter-spacing: 1px;
+  transition: 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  text-align: center;
+  background-color: #33a933;
+}
+
+.goToGrades:hover {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+/* DISPLAY GRADES PAGE */
+
+.borderBottom { 
+  border-bottom: 1px solid black; 
+  margin-left: -20px; 
+  padding: 15px; 
+}
+
+.borderBottom:nth-child(even) { background-color: white; }
+
+.gradeNameStyle {
+  font-weight: bold; 
+}
+
+.gradeGradeStyle {
+  color: #FF6B6B; 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.goToAddGrades {
+  padding: 0;
+  font-size: 150%;
+  border: none;
+  box-shadow: 1px 1px 2px black;
+  margin-top: 10px; 
+  border-radius: 5px;  
+  height: 36px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;; 
+  letter-spacing: 1px;
+  transition: 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 310px;
+  text-align: center;
+  background-color: black;
+}
+
+.goToAddGrades:hover {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
